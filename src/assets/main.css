@@ -1,0 +1,113 @@
+body {
+	background-color: #f0f5ff;
+}
+
+nav a {
+	font-family: Zalando Sans;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 24px;
+
+	color: #2b2f3b !important;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(1);
+}
+
+#navbar {
+	background-color: #859bd1;
+}
+
+#landing {
+	background: linear-gradient(180deg, #859bd1, #f0f5ff);
+}
+
+#contact {
+	background: linear-gradient(180deg, #f0f5ff, #5f78b0);
+}
+
+#landing-text > * {
+	color: #2b2f3b !important;
+}
+
+#landing-text h1 {
+	font-family: Zalando Sans;
+	font-weight: 700;
+	font-size: 38px;
+	line-height: 24px;
+}
+
+#landing-text h2 {
+	font-family: Zalando Sans;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 64px;
+}
+
+#landing-text p {
+	font-family: Zalando Sans;
+	font-weight: 100;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+#projects h1, #tools h1, #contact h1{
+	font-family: Zalando Sans;
+	font-weight: 700;
+	font-size: 38px;
+	line-height: 24px;
+
+	color: #2b2f3b !important;
+}
+
+#projects h3 {
+	font-family: Zalando Sans;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 24px;
+
+	color: #414656 !important;
+}
+#projects p, #contact label {
+	font-family: Zalando Sans;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+
+	color: #414656 !important;
+}
+
+#tools h2{
+	font-family: Zalando Sans;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 24px;
+
+	color: #414656 !important;
+}
+
+.carousel-item {
+    min-height: 500px;
+}
+
+#carouselItem {
+	background: #859bd1;
+	min-width: 280px;
+}
+
+#contact_header {
+	color: #FFFFFF !important;
+}
+
+#footer {
+	font-family: Zalando Sans;
+	color: #FFFFFF;
+	background: #5f78b0;
+}
+
+.tool-img {
+	width: 120px;
+	height: 120px;
+	object-fit: contain;
+}
