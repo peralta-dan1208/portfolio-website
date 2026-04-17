@@ -26,7 +26,7 @@
 						<div class="text-center">
 							<button type="submit" class="btn btn-warning rounded":disabled="isLoading">{{isLoading ? "Sending..." : "Send"}}</button>
 						</div>
-						<div class="d-flex justify-content-end mt-2">
+						<div class="justify-content-end mt-2">
 							<div ref="recaptchaContainer"></div>
 						</div>
 					</form>
