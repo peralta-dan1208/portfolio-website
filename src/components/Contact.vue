@@ -1,14 +1,14 @@
 <template>
 	<div id="contact">
-			<div class="container pt-5">
-				<h1 class="text-center mt-5 pt-5 text-light">Contact</h1>
-				<div class="row py-5 px-5">
-					<div class="col-12 col-md-6 mb-4 mb-md-0 mt-5">
-						<div class="ratio ratio-4x3">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7082.373562420042!2d121.02932773830403!3d14.55962224681984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9b8d33b2c6d%3A0xb0c2f766338a92bd!2sZuitt%20Makati!5e0!3m2!1sen!2sph!4v1768395315382!5m2!1sen!2sph" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded">
-							</iframe>
-						</div>
+		<div class="container pt-5">
+			<h1 class="text-center mt-5 pt-5 text-light">Contact</h1>
+			<div class="row py-5 px-5">
+				<div class="col-12 col-md-6 mb-4 mb-md-0 mt-5">
+					<div class="ratio ratio-4x3">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7082.373562420042!2d121.02932773830403!3d14.55962224681984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9b8d33b2c6d%3A0xb0c2f766338a92bd!2sZuitt%20Makati!5e0!3m2!1sen!2sph!4v1768395315382!5m2!1sen!2sph" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded">
+						</iframe>
 					</div>
+				</div>
 				<div class="col-12 col-md-6" id="form-col" @submit.prevent="submitForm">
 					<form id="contact_form" class="p-3 rounded text-light" >
 						<div class="mb-3">
@@ -25,6 +25,9 @@
 						</div>
 						<div class="text-center">
 							<button type="submit" class="btn btn-warning rounded":disabled="isLoading">{{isLoading ? "Sending..." : "Send"}}</button>
+						</div>
+						<div class="d-flex justify-content-end mt-2">
+							<div ref="recaptchaContainer"></div>
 						</div>
 					</form>
 				</div>
