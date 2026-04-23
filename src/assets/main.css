@@ -88,12 +88,24 @@ nav a {
 }
 
 .carousel-item {
-    min-height: 500px;
+  min-height: 600px;
+}
+
+.carousel-inner {
+	transition: transform 1s ease-in-out;
 }
 
 #carouselItem {
-	background: #859bd1;
-	min-width: 280px;
+	background: #a6bbed;
+	min-width: 300px;
+}
+
+.carousel-control-prev{
+	width: 60px;
+}
+
+.carousel-control-next{
+	width: 60px;
 }
 
 #contact_header {
