@@ -98,6 +98,12 @@ nav a {
 #carouselItem {
 	background: #a6bbed;
 	min-width: 300px;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#carouselItem:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
 }
 
 .carousel-control-prev{

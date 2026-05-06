@@ -3,36 +3,42 @@
         "id": 1,
         "title": "E-commerce API Documentation",
         "description": "Dynamic E-Commerce Workflow Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order reporting and comprehensive product management.\n Documented Backend API published publicly using Postman.",
-        "image": "/images/myProjects/1_project.svg"
+        "image": "/images/myProjects/1_project.svg",
+        "link": "https://documenter.getpostman.com/view/50123971/2sBXirjU8P"
     },
     {
         "id": 2,
         "title": "Course Booking API Documentation",
         "description": "RESTful API for managing course enrollments, featuring user registration, authentication, and retrieval of user details. Supports course creation, updates, archiving, activation, and student enrollment. Publicly documented using Postman.",
-        "image": "/images/myProjects/2_project.svg"
+        "image": "/images/myProjects/2_project.svg",
+        "link": ""
     },
     {
         "id": 3,
         "title": "Course booking App",
         "description": "A MERN-stack course enrollment system featuring user registration, authentication, and profile management. Authenticated users can create, update, archive, and activate courses. The platform also allows users to browse available courses and enroll seamlessly.",
-        "image": "/images/myProjects/3_project.svg"
+        "image": "/images/myProjects/3_project.svg",
+        "link": ""
     },
     {
         "id": 4,
         "title": "Portfolio Website(Capstone)",
         "description": "A Vue-based website hosted in Vercel, featuring the developer's creations.",
-        "image": "/images/myProjects/7_project.svg"
+        "image": "/images/myProjects/7_project.svg",
+        "link": "https://danperalta-portfolio-chi-eight-51.vercel.app"
     },
     {
         "id": 5,
         "title": "E-commerce App(Capstone)",
         "description": "MERN E-Commerce Platform. The platform features dynamic product catalog with filtering and sorting, real-time search, seamless cart updates, secure checkout, and a comprehensive admin dashboard with real-time analytics and user management capabilities.",
-        "image": "/images/myProjects/4_project.svg"
+        "image": "/images/myProjects/4_project.svg",
+        "link": "http://zuitt-bootcamp-prod-599-9408-peralta.s3-website.us-east-1.amazonaws.com"
     },
     {
         "id": 6,
         "title": "E-Commerce API(Capstone)",
         "description": "RESTful API for a product catalog website. The API includes the same filtering, sorting, real-time search, seamless cart updates, secure checkout, and a comprehensive admin dashboard with real-time analytics and user management capabilities.",
-        "image": "/images/myProjects/8_project.svg"
+        "image": "/images/myProjects/8_project.svg",
+        "link": "https://documenter.getpostman.com/view/50123971/2sBXirjU8P"
     }
 ]
